@@ -1,17 +1,35 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contact Us";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+@*<h3>@ViewBag.Message</h3>*@
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDlvRxfgXyK1hcq_8qk1_Y9CH9Z7uBeDeA'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div>
+    <style>
+        #gmap_canvas img {
+            max-width: none !important;
+            background: none !important;
+        }
+    </style></div> <a href='https://embedmap.org/'>adding a google map to website</a>
+    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=e1016df02f421f30f8a9b471c0f724f06376a7ac'></script>
+    <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(43.7136679920651,-79.68052700576784),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.7136679920651,-79.68052700576784)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br>M1K Scarborough<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+    <div>
+        <h3 style="color:brown">Contact Information</h3>
+        <h4 style="color:blue">Location</h4>
+        <p style="margin:0;">
+            2150 Steeles Ave., E<br>
+            Brampton, ON L6T 1A7<br>
+            (905) 790-1684
+        </p>
+            <h4 style="color:blue">Hours of Operation</h4>
+            <p>Open 10 AM to 10 PM</p>
+        
+    </div>
 </address>
 
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Support:</strong>   <a href="mailto:Kwality@sweets.com">Kwality@sweets.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@kwality.com">Marketing@kwality.com</a>
 </address>
