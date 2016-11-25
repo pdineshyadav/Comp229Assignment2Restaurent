@@ -168,8 +168,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AppetiteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SoupController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -242,6 +244,13 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="ViewPage1.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
+    <Content Include="Views\Appetite\Index.cshtml" />
+    <Content Include="Views\Soup\Index.cshtml" />
+    <Content Include="Views\Appetite\Details.cshtml" />
+    <Content Include="Views\Appetite\Create.cshtml" />
+    <Content Include="Views\Appetite\Edit.cshtml" />
+    <Content Include="Views\Appetite\Delete.cshtml" />
+    <Content Include="Views\Appetite\DeleteConfirmed.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
