@@ -193,6 +193,7 @@
     <Content Include="Asset\Images\Banner.jpg" />
     <Content Include="Asset\Images\Banner4-930x380.jpg" />
     <Content Include="Asset\Images\ContactUsImage.jpg" />
+    <Content Include="Asset\Images\Map.png" />
     <Content Include="Asset\Images\MenuImage.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
