@@ -1,12 +1,31 @@
 ﻿@{
-    ViewBag.Title = "About Us";
+    ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-@*<h3>@ViewBag.Message</h3>*@
 
-<h3 style="color:brown">Welcome to Kwality Sweets and Restaurant</h3>
+<h1 style="color:deeppink">Welcome to Kwality Sweets and Restaurant</h1>
 
-<p>Since 1996 Kwality Sweets has been a recommended member of the Canadian Restaurant & Foodservices Association. They cook delicious and authentic East Indian Food & Sweets. We take great pride in making our sweets. With over 70 different Indian and Bengali sweets made by sweet makers from India with a minimum of 20 years experience, they produce unbelievable sweets with unique tastes.</p>
-<p>We offer a smoke-free, wheel chair friendly lounge for seating up to 140 people with classic Indian music and beautiful scenery. We take great pride in our cozy and clean atmosphere for dining-in. Our fast, friendly take-out and unique catering to fit your needs to parties of all sizes and occasions.</p>
+<h2 style="color:brown">Menu</h2>
 
-<p></p>
+
+
+
+<div class="jumbotron">
+    <h3>Soups</h3>
+    <img alt="Soups" height="198" src="~/Asset/Images/MenuSoups.jpg" style="float: right" width="259">
+    <p>Soup is a primarily liquid food, generally served warm or hot (but may be cool or cold), that is made by combining ingredients such as meat and vegetables with stock, juice, water, or another liquid. Traditionally, soups are classified into two main groups: clear soups and thick soups. The established French classifications of clear soups are bouillon and consommé.</p>
+    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Index", "Soups")" role="button">Learn more</a></p>
+</div>
+
+<div class="jumbotron">
+    <h3>Appetizers</h3>
+    <img alt="Appetizers" height="198" src="~/Asset/Images/MenuAppetizers.jpg" style="float: right" width="259">
+    <p>Usually, an appetizer is a small serving of food — just a few bites — meant to be eaten before an entree, and often shared by several people. You can also call an appetizer an hors d'oeuvre. An appetizer is meant to stimulate your appetite, making you extra hungry for your meal. This is where the word comes from, literally meaning "something to whet the appetite" or "something to appetize."</p>
+    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Index", "Appetizers")" role="button">Learn more</a></p>
+</div>
+
+<div class="jumbotron">
+    <h3>Desserts</h3>
+    <img alt="Desserts" height="198" src="~/Asset/Images/MenuDesserts.jpg" style="float: right" width="259">
+    <p>Dessert is a course that concludes a main meal. The course usually consists of sweet foods and beverages, such as dessert wine or liqueurs, but may include coffee, cheeses, nuts, or other savory items. In some parts of the world, such as much of central and western Africa, there is no tradition of a dessert course to conclude a meal.</p>
+    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Index", "Desserts")" role="button">Learn more</a></p>
+</div>
